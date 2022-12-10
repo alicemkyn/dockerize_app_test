@@ -18,7 +18,7 @@ docker ps
 
 **ps** komutu çalışan tüm containerların listesini bilgileriyle beraber döker.
 
-)
+
 
 her bir container random **isim ve id** bilgisi alır. Eğer çalışan ya da çalışmayan tüm container'ların listesini görmek istersek. Bu durumda **-a** parametresini göndermemiz gerekir.
 
@@ -190,7 +190,7 @@ docker inspect containerName
 ```
 
 ### Container logs
-Özellikle -d **dettach** mod ile çalışan bir container'a ait logları görmek için logs komutunu kullanabilirsiniz.
+Özellikle -d **deattach** mod ile çalışan bir container'a ait logları görmek için logs komutunu kullanabilirsiniz.
 
 ```
 docker logs containerName

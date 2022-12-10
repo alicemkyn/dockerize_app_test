@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  todo-app:
+    build: .
+    ports:
+      - 3000:3000
+    container_name: dc-todo-app
+  mongodb:
+    image: mongo
+    ports:
+      -27017:27017
+      
